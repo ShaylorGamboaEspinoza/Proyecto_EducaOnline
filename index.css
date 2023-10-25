@@ -93,7 +93,7 @@ body {
 }
 .cta {
     display: inline-block;
-    background-color: rgba(14, 226, 28, 0.729);
+    background-color: rgb(3, 194, 16);
     justify-self: center;
     color:#fff;
     text-decoration: none;
