@@ -1,0 +1,44 @@
+:root {
+    padding: 0;
+    margin: 0;
+    
+}
+.about {
+    text-align: center;
+}
+.subtitle {
+    color: var (--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+    padding:2%;
+    border-radius: 10rem;
+    background-color: rgba(34, 253, 0, 0.446);
+}
+.about__paragraph  {
+    line-height: 2;
+    background-color: #fffb00;
+    border-radius: 20rem;
+
+}
+.about__main {
+   padding-top: 80px;
+   display:grid;
+   width: 90%;
+   margin: 0 auto;
+   gap: 1em;
+   overflow: hidden;
+   grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+.about__icons {
+    display:grid;
+    gap:1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.about__icon {
+    width: 150px;
+    height :150px;
+    border-radius: 30px;
+}

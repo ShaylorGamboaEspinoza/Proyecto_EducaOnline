@@ -2,7 +2,7 @@
 
 :root {
     --padding-container:100px 0;
-    --color-title:#001A49;
+    --color-title:#ffffff;
     
 }
 body {
@@ -24,10 +24,10 @@ body {
     position: relative;
     display:grid;
     grid-template-rows: 100px 1fr;
-    color: rgba(23, 112, 28, 0.773);
+    color: rgb(114, 110, 60)73);
 }
 .hero__paragraph {
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
 .hero::before {
@@ -37,7 +37,7 @@ body {
     left:0;
     width:100%;
     height:100%;
-    background-image:linear-gradient(180deg, #f3f1f1ba 0%,#0000008c 100%) ,url('./estudiantes.jpg');
+    background-image:linear-gradient(20deg, #a68c8c00 0%,#00000000 100%) ,url('./logoprincipal3.JPG');
     background-size: cover;
     clip-path: polygon(0 0,100% 0,100% 80%,50% 95%,0 80%);
     z-index: -1;
@@ -50,12 +50,14 @@ body {
 }
 .nav__title {
    font-weight: 300;
-   font-size: 1.2rem;
-   color: black;
+   font-size: 1rem;
+
+   color: rgb(77, 255, 0);
 }
 .nav__link {
     margin-left: auto;
     padding: 0;
+    margin-top: 0;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: max-content;
@@ -65,8 +67,11 @@ body {
    list-style: none;
 }
 .nav__links {
-    color:#ffffff;
+    color:#000000;
     text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
 }
 .nav__menu {
     margin-left: auto;
@@ -83,13 +88,17 @@ body {
     --padding-container:0;
     display:grid;
     grid-auto-rows: max-content;
-    align-content: center;
+    align-content: end;
     gap:1em;
     padding-bottom: 100px;
     text-align: center;
 }
 .hero__title {
-    font-size: 3rem;
+    font-size: 1.8rem;
+
+    color: #f7fb00;
+    background-color: #b800faf0;
+    border-radius: 50px;
 }
 .hero__paragraph {
     margin-bottom: 20px;
@@ -98,7 +107,7 @@ body {
     display: inline-block;
     background-color: rgb(26, 218, 39);
     justify-self: center;
-    color:#fff;
+    color:#ffffff;
     text-decoration: none;
     padding: 13px 20px;
     border-radius:7px;
@@ -113,8 +122,10 @@ body {
     font-size: 2rem;
     margin-bottom: 25px;
 }
-.about__paragraph {
-    line-height: 1.7;
+.about__paragraph  {
+    line-height: 2;
+    background-color: #fffb00;
+    border-radius: 20rem;
 }
 .about__main {
    padding-top: 80px;
@@ -134,8 +145,8 @@ body {
     margin: 0 auto;
 }
 .about__icon {
-    width: 190px;
-    height: 120px;
+    width: 250px;
+    height :250px;
     border-radius: 30px;
 }
 
